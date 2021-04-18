@@ -41,7 +41,7 @@ const SideBar = () => {
             });
         }
     }
-    return <Menu>
+    return <Menu className='siuder_menu'>
         {renderMenu(menuList)}
     </Menu>
 };
