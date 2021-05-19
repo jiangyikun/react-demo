@@ -59,7 +59,31 @@ const TextA = () => {
                     }
                 },
                 // nodeClick:false,
-                data: data
+                data: data,
+                downplay:{
+                    label:{
+                        show:true,
+                        formatter: (params) => {
+                            return params.name + ':' + params.value;
+                        }
+                    }
+                },
+                emphasis:{
+                    label:{
+                        show:true,
+                        formatter: (params) => {
+                            return params.name + ':' + params.value;
+                        }
+                    }
+                },
+                highlight:{
+                    label:{
+                        show:true,
+                        formatter: (params) => {
+                            return params.name + ':' + params.value;
+                        }
+                    }
+                }
             }]
         });
     }, []);
