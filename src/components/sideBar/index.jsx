@@ -29,6 +29,11 @@ const SideBar = () => {
                     name: "TextB",
                     icon: '',
                     id: '2_2'
+                },{
+                    path: '/text/text_c',
+                    name: "TextC",
+                    icon: '',
+                    id: '2_3'
                 }
             ]
         }
