@@ -1,5 +1,5 @@
 import React from "react";
-import {useHistory} from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { Menu } from "antd";
 import "./style.scss";
 
@@ -48,13 +48,13 @@ const SideBar = () => {
             });
         }
     }
-    const menuItemClick = ({item})=>{
-      // window.console.log(history);
-      history.push(item.props.path);
+    const menuItemClick = ({ item }) => {
+        // window.console.log(history);
+        history.push(item.props.path);
     }
-    return <Menu 
-    className='siuder_menu'
-    onClick={menuItemClick}
+    return <Menu
+        className='siuder_menu'
+        onClick={menuItemClick}
     >
         {renderMenu(menuList)}
     </Menu>

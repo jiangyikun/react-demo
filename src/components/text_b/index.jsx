@@ -36,7 +36,7 @@ class App extends React.Component {
             float: true,
             cellHeight: "70px",
             minRow: 1,
-            column:12,
+            column: 12,
             verticalMargin: '10px',
         });
 
@@ -59,7 +59,7 @@ class App extends React.Component {
 
     addNewWidget = (node) => {
         let grid = this.grid;
-        if(grid){
+        if (grid) {
             this.grid.addWidget(node);
         }
     };
