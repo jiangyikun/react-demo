@@ -20,22 +20,34 @@ const SideBar = () => {
             id: '2',
             children: [
                 {
-                    path: "/text/text_a",
-                    name: 'TextA',
+                    path: "/text/text_chart",
+                    name: 'Chart',
                     icon: '',
                     id: '2_1',
                 }, {
-                    path: '/text/text_b',
-                    name: "TextB",
+                    path: '/text/text_grid_a',
+                    name: "Grid_a",
                     icon: '',
                     id: '2_2'
-                },{
-                    path: '/text/text_c',
-                    name: "TextC",
+                }, {
+                    path: '/text/text_grid_b',
+                    name: "Grid_b",
                     icon: '',
                     id: '2_3'
+                }, {
+                    path: '/text/text_grid_virtualized',
+                    name: "virtualized",
+                    icon: '',
+                    id: '2_4'
                 }
             ]
+        },
+        {
+            path: '/swiper',
+            name: 'swiper',
+            icon: '',
+            id: 'swiper',
+            children: [],
         }
     ];
     const renderMenu = (menuList) => {
