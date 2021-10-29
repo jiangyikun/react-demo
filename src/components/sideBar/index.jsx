@@ -48,6 +48,13 @@ const SideBar = () => {
             icon: '',
             id: 'swiper',
             children: [],
+        },
+        {
+            path: '/debounce',
+            name: '防抖节流',
+            icon: '',
+            id: "debounce",
+            children: [],
         }
     ];
     const renderMenu = (menuList) => {

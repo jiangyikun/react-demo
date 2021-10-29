@@ -6,6 +6,7 @@ import Index from "./components/index";
 import TextC from "./components/text_c";
 import Virtualized from "./components/virtualized";
 import Swiper from "./components/swiper";
+import Debounce from "./components/debounce";
 
 const Routers = () => {
     return <div style={{ width: '100%' }}>
@@ -15,6 +16,7 @@ const Routers = () => {
         <Route path='/text/text_grid_b' component={TextC} />
         <Route path='/text/text_grid_virtualized' component={Virtualized} />
         <Route path='/swiper' component={Swiper} />
+        <Route path='/debounce' component={Debounce} />
     </div>
 }
 export default Routers
