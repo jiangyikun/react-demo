@@ -68,7 +68,7 @@ const SideBar = () => {
         }
     }
     const menuItemClick = ({ item }) => {
-        // window.console.log(history);
+        window.console.log(history, 'history');
         history.push(item.props.path);
     }
     return <Menu
